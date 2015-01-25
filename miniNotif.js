@@ -1,3 +1,12 @@
+/****************************************
+			miniNotif.js
+		Created by Jo Colina
+			@jsmrcaga
+
+			with love
+				2015
+***************************************/
+
 function notification(title, options){
 	
 

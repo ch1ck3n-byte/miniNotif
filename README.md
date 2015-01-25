@@ -46,10 +46,10 @@ var options = {
 ##Object responses:
 
 ###CODE and MESSAGE:
-	`1: Notifications disabled or not existant`
-	`2: Notification set and shown`
-	`3: Notification set and shown (special)`
-	`4: Permission denied`
+	1: Notifications disabled or not existant
+	2: Notification set and shown
+	3: Notification set and shown (special)
+	4: Permission denied
 
 To use simply create a variable as follows:
 	`var notif = myNotif.show()`
