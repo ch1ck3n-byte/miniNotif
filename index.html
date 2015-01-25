@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Chrome Desktop Nifitication Test</title>
+  <script type="text/javascript" src="miniNotif.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+
+  var options={
+    dir : "rtl",
+    lang: "en",
+    body: "This is my notification created using miniNotif.js",
+    tag: "Notif1",
+    icon: "http://cdn.flaticon.com/png/256/60753.png" //free icon from flaticon.com
+  };
+
+  var myNotification = new notification("Notif!", options);
+  console.log(myNotification);
+  var notif = myNotification.show();
+
+  console.log("Notif returned: \"" + notif.message + "\" with code: "+notif.code+".");
+</script>
+
+
+
+
+</body>
+</html>
