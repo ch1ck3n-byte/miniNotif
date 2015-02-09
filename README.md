@@ -42,6 +42,9 @@ var options = {
 }
 
 ```
+##Displaying the notification
+
+`myNotif.show()`
 
 ##Object responses:
 
