@@ -66,3 +66,16 @@ function notification(title, options){
 
 }
 
+var miniNotif={
+	new: function(title, body, icon){
+		new notification(title, {body: body || null, icon: icon || null}).show();
+	},
+
+	withId: function(id, title, body, icon){
+		if (typeof id == "undefined") throw new Error("Id is required when calling miniNotif.withId");
+		new notification(title, {body: body || null, icon: icon ||null, tag: id}).show();
+	}
+
+
+
+};
